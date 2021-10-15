@@ -68,6 +68,20 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="price" id="59E1E659-1321-8C86-8AD1-699D10EEB31A">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 07:48:35 UTC</createdTime>
+<generatorID>CF2ECF5D-A200-2003-4DA8-C3303600829D</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1DA0813D-236E-DD0B-A76E-E322EF4974A8" name="Books_PK">
