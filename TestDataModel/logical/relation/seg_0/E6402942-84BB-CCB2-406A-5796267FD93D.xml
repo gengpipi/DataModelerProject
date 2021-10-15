@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_patrons_transactions" directorySegmentName="seg_0" id="E6402942-84BB-CCB2-406A-5796267FD93D">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:36:19 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<sourcePk>2CDE020F-FA03-07BA-B0D4-23D7AFCEE40B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9952958A-FB4E-3B55-D4FB-773FD22946AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8FC44549-4C81-4463-83FC-7B5842DC15CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

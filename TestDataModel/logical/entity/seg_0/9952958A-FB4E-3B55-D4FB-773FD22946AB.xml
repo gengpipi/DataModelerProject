@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9952958A-FB4E-3B55-D4FB-773FD22946AB" name="Patrons">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:26:25 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patron_id" id="246DAE2D-444F-AB76-29FB-73272DB64C43">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:26:58 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D55EC3FC-1FF1-102E-251F-97A39E534D79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="6100B018-7218-CE07-A54C-EFFA1BF5F0F4">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:27:08 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="90AD3F14-2324-05C4-B76E-633F2212B665">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:27:25 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="3B879F33-19DC-BC6B-0788-403A93B1F036">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:27:36 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A33191EA-097A-47FD-0208-3AFF3D670E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="BA55A66C-01ED-3870-D791-DCBCAD6B4358">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:28:02 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>330579D3-708C-0E7D-9325-A5E2DA28ACB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="DD27CE60-DD75-A0D5-2752-FD65898B2BEE">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:28:18 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5825CCAF-400B-6881-3019-90188CADFE5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="419EFD0A-FD4A-9C5A-B1E5-847E1F9A73A6">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:28:27 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>69054773-18DF-F3A7-90AE-67F87123E66A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="FB24BD9A-2CC8-79EE-F39F-58DABA316077">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:28:34 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CDE020F-FA03-07BA-B0D4-23D7AFCEE40B" name="Patrons PK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:27:14 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>246DAE2D-444F-AB76-29FB-73272DB64C43</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

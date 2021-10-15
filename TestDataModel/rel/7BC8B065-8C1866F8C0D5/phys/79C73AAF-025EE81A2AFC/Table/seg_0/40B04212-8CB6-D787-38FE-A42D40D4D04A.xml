@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Books" directorySegmentName="seg_0" id="40B04212-8CB6-D787-38FE-A42D40D4D04A">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:49:42 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="book_id" id="204E907E-F527-C21F-A485-29CA930A3582">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:49:42 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="title" id="8F4D68A6-7C3F-BC7C-78D9-56CD82FE30A8">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:49:42 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="author_first_name" id="B63EFB07-2270-84DD-A0E4-32F46AD3D802">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:49:42 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rating" id="E721FFEC-B5D1-EDA9-5006-969DAD99CF49">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:49:42 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="author_last_name" id="F5792D3E-44A8-031E-A823-069E35DA5CBB">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:49:42 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Books_PK" id="1DA0813D-236E-DD0B-A76E-E322EF4974A8">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:49:42 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

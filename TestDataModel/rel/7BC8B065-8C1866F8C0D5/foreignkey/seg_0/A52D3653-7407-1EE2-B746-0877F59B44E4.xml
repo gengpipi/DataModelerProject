@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A52D3653-7407-1EE2-B746-0877F59B44E4" containerWithKeyObject="96C90451-3741-98CF-3777-389909F5D56B" localFKIndex="CA1579F4-1F49-7082-B9F4-E078C8EBC1E3" name="Transactions_Patrons_FK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>E6402942-84BB-CCB2-406A-5796267FD93D</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<referredTableLongName>Patrons</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AA563DD-DBD0-7701-7087-739DFEF44DC2</referredTableID>
+<keyObject>D91345E8-3E12-E318-8D3B-D738AFDA182E</keyObject>
+<referredKeyID>D91345E8-3E12-E318-8D3B-D738AFDA182E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>patron_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96C90451-3741-98CF-3777-389909F5D56B" name="Transactions">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>8FC44549-4C81-4463-83FC-7B5842DC15CA</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="62EC5C6A-3F3A-1386-5E8A-D126017C063B">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>1145D379-546E-BE7B-0DE9-D03C2F969517</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D55EC3FC-1FF1-102E-251F-97A39E534D79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_date" id="FD660CF2-9222-13E3-5DB6-B5468EF42A29">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>D78D0815-0106-31CE-43B2-51BDA64EF700</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_type" id="28A774D2-50BA-CDF7-8364-CAFF6C55A596">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>CAC32AA9-7532-DAA2-D8A4-671362F2CD94</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D55EC3FC-1FF1-102E-251F-97A39E534D79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_book_id" id="234CE17D-90CC-26C6-FC7F-2BE06B63DD41">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>EA1CF54F-037B-F619-DABF-B402CE9177FA</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F88DCD7-065D-EA3F-4984-10C4AC9E3844</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFA0454F-20F0-A95B-0737-AF0B491C6871" referredColumn="204E907E-F527-C21F-A485-29CA930A3582"/>
+</associations>
+</Column>
+<Column name="Patrons_patron_id" id="4617BFD0-6C78-2DDD-1D4E-ADF77E505840">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>D6EDFF26-460C-5E17-D97D-B5D8CD8B0B4B</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D55EC3FC-1FF1-102E-251F-97A39E534D79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A52D3653-7407-1EE2-B746-0877F59B44E4" referredColumn="FF1D6F69-31EC-468F-F8FD-52BE3ADB2AAF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD03498B-4E23-9245-4D37-447CF8F10E6E" name="Transactions_PK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>9C62DE63-9AAA-C4BE-E430-D077FCF058E8</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62EC5C6A-3F3A-1386-5E8A-D126017C063B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9BA7385-CF63-1BD3-D933-48DDBBDA7E61" name="Transactions_Books_FK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>6EC670D7-931B-C290-1BB7-D5ED77876593</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="234CE17D-90CC-26C6-FC7F-2BE06B63DD41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA1579F4-1F49-7082-B9F4-E078C8EBC1E3" name="Transactions_Patrons_FK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>E6402942-84BB-CCB2-406A-5796267FD93D</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4617BFD0-6C78-2DDD-1D4E-ADF77E505840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

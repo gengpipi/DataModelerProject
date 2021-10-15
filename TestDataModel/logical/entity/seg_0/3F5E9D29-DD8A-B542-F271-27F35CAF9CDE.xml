@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F5E9D29-DD8A-B542-F271-27F35CAF9CDE" name="Books">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:20:55 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book_id" id="91994460-ED24-BAA3-1EB7-9DD92618A98A">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:21:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[The Dewey code or other book identifier.]]></commentInRDBMS>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F88DCD7-065D-EA3F-4984-10C4AC9E3844</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="914CBD0E-4012-5D8E-F86E-83CFDFFE32CD">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:23:45 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6871E888-5653-0788-D35E-9CCFA17C6CC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_last_name" id="24B1030C-1034-7686-8F86-388A32EFCD55">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:24:05 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_first_name" id="D9BB43D8-0BA6-3B7A-B429-3C5E700B48D3">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:24:36 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="7679E792-89B1-8FB5-8385-BBD9BFA9CA0F">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:24:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Librarian's personal rating of the book, from 1 (poor) to 10 (great)]]></commentInRDBMS>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F074D446-BECC-C9B2-0B14-3024032B1E9F" name="Books PK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:22:28 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<engineerTo>
+<item key="7BC8B065-A225-6B02-8C32-8C1866F8C0D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91994460-ED24-BAA3-1EB7-9DD92618A98A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

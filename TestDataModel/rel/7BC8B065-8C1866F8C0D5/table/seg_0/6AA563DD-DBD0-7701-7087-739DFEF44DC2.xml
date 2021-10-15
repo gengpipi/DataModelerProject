@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AA563DD-DBD0-7701-7087-739DFEF44DC2" name="Patrons">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>9952958A-FB4E-3B55-D4FB-773FD22946AB</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patron_id" id="FF1D6F69-31EC-468F-F8FD-52BE3ADB2AAF">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>246DAE2D-444F-AB76-29FB-73272DB64C43</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D55EC3FC-1FF1-102E-251F-97A39E534D79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="971FF2D8-21E7-AFB7-6EE9-9A4CEA77317E">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>6100B018-7218-CE07-A54C-EFFA1BF5F0F4</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="B0F0AF38-B086-9DB5-0C89-5FD8D62C3F44">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>90AD3F14-2324-05C4-B76E-633F2212B665</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_address" id="404A5090-1538-FD94-9719-72E664B2E18E">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>3B879F33-19DC-BC6B-0788-403A93B1F036</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A33191EA-097A-47FD-0208-3AFF3D670E1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="53FA7D62-39B1-0D1B-3E81-9DC4652D2868">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>BA55A66C-01ED-3870-D791-DCBCAD6B4358</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>330579D3-708C-0E7D-9325-A5E2DA28ACB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="04DFD726-8940-1A4E-CCB2-0353DE5D98F1">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>DD27CE60-DD75-A0D5-2752-FD65898B2BEE</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5825CCAF-400B-6881-3019-90188CADFE5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="F7530A66-F66B-E749-0CAE-114343D13B55">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>419EFD0A-FD4A-9C5A-B1E5-847E1F9A73A6</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>69054773-18DF-F3A7-90AE-67F87123E66A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="1B095A73-832E-9BE9-86D8-1783738757C8">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>FB24BD9A-2CC8-79EE-F39F-58DABA316077</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D91345E8-3E12-E318-8D3B-D738AFDA182E" name="Patrons_PK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>2CDE020F-FA03-07BA-B0D4-23D7AFCEE40B</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF1D6F69-31EC-468F-F8FD-52BE3ADB2AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

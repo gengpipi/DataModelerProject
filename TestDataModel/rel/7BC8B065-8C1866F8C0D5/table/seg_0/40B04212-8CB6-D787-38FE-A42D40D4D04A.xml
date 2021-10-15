@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40B04212-8CB6-D787-38FE-A42D40D4D04A" name="Books">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>3F5E9D29-DD8A-B542-F271-27F35CAF9CDE</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_id" id="204E907E-F527-C21F-A485-29CA930A3582">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[The Dewey code or other book identifier.]]></commentInRDBMS>
+<generatorID>91994460-ED24-BAA3-1EB7-9DD92618A98A</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F88DCD7-065D-EA3F-4984-10C4AC9E3844</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="8F4D68A6-7C3F-BC7C-78D9-56CD82FE30A8">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>914CBD0E-4012-5D8E-F86E-83CFDFFE32CD</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6871E888-5653-0788-D35E-9CCFA17C6CC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_last_name" id="F5792D3E-44A8-031E-A823-069E35DA5CBB">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>24B1030C-1034-7686-8F86-388A32EFCD55</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_first_name" id="B63EFB07-2270-84DD-A0E4-32F46AD3D802">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>D9BB43D8-0BA6-3B7A-B429-3C5E700B48D3</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="E721FFEC-B5D1-EDA9-5006-969DAD99CF49">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Librarian's personal rating of the book, from 1 (poor) to 10 (great)]]></commentInRDBMS>
+<generatorID>7679E792-89B1-8FB5-8385-BBD9BFA9CA0F</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DA0813D-236E-DD0B-A76E-E322EF4974A8" name="Books_PK">
+<createdBy>kegeng</createdBy>
+<createdTime>2021-10-15 05:46:50 UTC</createdTime>
+<generatorID>F074D446-BECC-C9B2-0B14-3024032B1E9F</generatorID>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="204E907E-F527-C21F-A485-29CA930A3582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
