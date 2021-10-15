@@ -14,9 +14,9 @@
 <commentInRDBMS><![CDATA[The Dewey code or other book identifier.]]></commentInRDBMS>
 <generatorID>91994460-ED24-BAA3-1EB7-9DD92618A98A</generatorID>
 <ownerDesignName>TestDataModel</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2F88DCD7-065D-EA3F-4984-10C4AC9E3844</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -25,9 +25,9 @@
 <createdTime>2021-10-15 05:46:50 UTC</createdTime>
 <generatorID>914CBD0E-4012-5D8E-F86E-83CFDFFE32CD</generatorID>
 <ownerDesignName>TestDataModel</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>6871E888-5653-0788-D35E-9CCFA17C6CC6</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -36,9 +36,9 @@
 <createdTime>2021-10-15 05:46:50 UTC</createdTime>
 <generatorID>24B1030C-1034-7686-8F86-388A32EFCD55</generatorID>
 <ownerDesignName>TestDataModel</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -48,9 +48,9 @@
 <generatorID>D9BB43D8-0BA6-3B7A-B429-3C5E700B48D3</generatorID>
 <ownerDesignName>TestDataModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>5E067D03-9F8E-2262-9AD3-954A2CEA4F66</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -77,9 +77,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actualprice" id="A822507C-3EC0-1DF2-E5FF-848D27104BDD">
+<createdBy>minqiao</createdBy>
+<createdTime>2021-10-15 09:01:34 UTC</createdTime>
+<ownerDesignName>TestDataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
